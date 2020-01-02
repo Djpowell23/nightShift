@@ -9,8 +9,8 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Home />
-        {/* Uncomment this and Logs for viewing purposes until routing gets set up */}
-        {/* <Logs />  */}
+        {/* Uncomment below for viewing purposes until routing gets set up */}
+        <Logs />
       </div>
     );
   }
