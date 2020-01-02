@@ -126,6 +126,7 @@ class Home extends Component {
                   <CardTitle>First Onyxia Clear: ##/##/####</CardTitle>
                 </CardBody>
               </Card>
+              <br></br>
             </Col>
           </Row>
         </Container>
