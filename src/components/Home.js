@@ -43,14 +43,27 @@ class Home extends Component {
                   alt="Card Image Top"
                 />
                 <CardBody>
-                  <CardTitle>Night Shift</CardTitle>
-                  <CardSubtitle>Guild Officers</CardSubtitle>
+                  <CardTitle>
+                    <h3>Night Shift</h3>
+                  </CardTitle>
                   <CardText>
+                    <h4>Class Leaders:</h4>
                     <ul>
-                      <li>Picklericks</li>
-                      <li>Crom</li>
-                      <li>Judecca</li>
+                      <li>Mage: Bigpoop</li>
+                      <li>Shaman: Goobaspank</li>
+                      <li>Warrior: Taurinebeast</li>
+                      <li>Rogue: Brothuzad</li>
+                      <li>Hunter: Billybones</li>
+                      <li>Warlock: Felblade</li>
+                      <li>Druid: Qube</li>
+                    </ul>
+                    <h4>Officers:</h4>
+                    <ul>
                       <li>Zeenoo</li>
+                      <li>Crashbot</li>
+                      <li>Kord</li>
+                      <li>Madderhorn</li>
+                      <li>Prs</li>
                     </ul>
                   </CardText>
                 </CardBody>
@@ -59,7 +72,9 @@ class Home extends Component {
               {/* Another Card with what the guild is all about */}
               <Card>
                 <CardBody>
-                  <CardTitle>About the Guild</CardTitle>
+                  <CardTitle>
+                    <h4>About the Guild</h4>
+                  </CardTitle>
                   <CardText>
                     <p>
                       Night Shift is a guild created for the people who could
