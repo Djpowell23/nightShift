@@ -11,13 +11,13 @@ class NavBar extends Component {
           <NavbarBrand href="/">Night Shift</NavbarBrand>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Announcements</NavLink>
+              <NavLink href="/announcements/">Announcements</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">Media</NavLink>
+              <NavLink href="/media/">Media</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">Logs</NavLink>
+              <NavLink href="/logs/">Logs</NavLink>
             </NavItem>
           </Nav>
         </Navbar>
