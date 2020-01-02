@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import { Button } from "reactstrap";
-import NavBar from "./components/Navbar";
+import NavBar from "./components/NavBar";
+import Home from "./components/Home";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <NavBar />
-        <h3>Hello World</h3>
+        <Home />
       </div>
     );
   }
