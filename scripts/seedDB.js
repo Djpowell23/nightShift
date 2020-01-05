@@ -8,31 +8,31 @@ const userSeed = [
     email: "dpowel11@kent.edu",
     username: "Goobaspank",
     class: "Shaman",
-    dateJoined: Date.now
+    dateJoined: new Date(Date.now())
   },
   {
     email: "tpwalker94@gmail.com",
     username: "Picklericks",
     class: "Shaman",
-    dateJoined: Date.now
+    dateJoined: new Date(Date.now())
   },
   {
     email: "ascxtel@gmail.com",
     username: "Xtel",
     class: "Shaman",
-    dateJoined: Date.now
+    dateJoined: new Date(Date.now())
   },
   {
     email: "chefnhatanguyen@gmail.com",
     username: "Yourbrojoe",
     class: "Shaman",
-    dateJoined: Date.now
+    dateJoined: new Date(Date.now())
   },
   {
     email: "coreyg83@gmail.com",
     username: "Zapz",
     class: "Shaman",
-    dateJoined: Date.now
+    dateJoined: new Date(Date.now())
   }
 ];
 
