@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
-import Logs from "./pages/Logs";
-import Login from "./pages/Login";
+import Register from "./pages/Register";
+// import Logs from "./pages/Logs";
 
 class App extends Component {
   render() {
@@ -10,8 +10,7 @@ class App extends Component {
       <div className="App">
         {/* <NavBar />
         <Home /> */}
-        <Login />
-        {/* Uncomment below for viewing purposes until routing gets set up */}
+        <Register />
         {/* <Logs /> */}
       </div>
     );

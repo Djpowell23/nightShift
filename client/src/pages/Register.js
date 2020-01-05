@@ -13,12 +13,17 @@ import {
   FormFeedback
 } from "reactstrap";
 
-class Login extends Component {
+class Register extends Component {
   state = {
     email: "",
     username: "",
     password: ""
   };
+
+  componentDidMount() {
+    console.log("component mounted");
+  }
+
   handleFormSubmit = event => {
     event.preventDefault();
 
@@ -74,7 +79,9 @@ class Login extends Component {
                   />
                   <FormText>Make sure password meets criteria.</FormText>
                 </FormGroup>
-                <Button onClick={this.handleFormSubmit}>Register!</Button>
+                <Button color="primary" onClick={this.handleFormSubmit}>
+                  Register!
+                </Button>
               </Form>
             </Jumbotron>
           </Col>
@@ -84,4 +91,4 @@ class Login extends Component {
   }
 }
 
-export default Login;
+export default Register;
