@@ -54,7 +54,7 @@ class Home extends Component {
                       <li>Warrior: Taurinebeast</li>
                       <li>Rogue: Brothuzad</li>
                       <li>Hunter: Billybones</li>
-                      <li>Warlock: Felblade</li>
+                      <li>Warlock: Felblade/Zimlock</li>
                       <li>Druid: Qube</li>
                     </ul>
                     <h4>Officers:</h4>
