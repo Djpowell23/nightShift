@@ -17,7 +17,8 @@ class Register extends Component {
   state = {
     email: "",
     username: "",
-    password: ""
+    class: "",
+    dateJoined: new Date(Date.now())
   };
 
   componentDidMount() {
@@ -27,10 +28,19 @@ class Register extends Component {
   handleFormSubmit = event => {
     event.preventDefault();
 
-    // Get data from the table
-    var userCreated = this.state;
-    console.log("user created:", userCreated);
+    // Set state to user's info
+    this.setState({ event });
+
+    // Create post request, send user to DB
+    this.createUser();
   };
+
+  createUser() {
+    // For testing
+    console.log("Create User Event/userCreated:", this.state);
+    var userCreated = this.state;
+    console.log("userCreated:", userCreated);
+  }
 
   handleEmailChange = event => {
     this.setState({ email: event.target.value });
@@ -68,6 +78,21 @@ class Register extends Component {
                   <Label for="Username">Username</Label>
                   <Input onChange={this.handleUsernameChange} />
                   <FormText>Please make this match your IGN.</FormText>
+                </FormGroup>
+                {/* Class */}
+                <FormGroup>
+                  <Label for="classSelect">Class</Label>
+                  <Input type="select" name="class" id="classSelect">
+                    <option>Choose Class...</option>
+                    <option>Warrior</option>
+                    <option>Rogue</option>
+                    <option>Shaman</option>
+                    <option>Hunter</option>
+                    <option>Priest</option>
+                    <option>Druid</option>
+                    <option>Warlock</option>
+                    <option>Mage</option>
+                  </Input>
                 </FormGroup>
                 {/* Password */}
                 <FormGroup>
